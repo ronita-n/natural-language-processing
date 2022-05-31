@@ -82,9 +82,7 @@ def download_week3_resources(force=False):
         "data",
         force=force
     )
-    print("Downloading GoogleNews-vectors-negative300.bin.gz (1.5G) for you, it will take a while...")
-    download_file("https://s3.amazonaws.com/dl4j-distribution/GoogleNews-vectors-negative300.bin.gz",
-                  "GoogleNews-vectors-negative300.bin.gz")
+    
 
 
 def download_project_resources(force=False):
